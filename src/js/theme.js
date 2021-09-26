@@ -17,8 +17,6 @@ if (!saveTheme || saveTheme === Theme.LIGHT) {
   onSwitchDarkTheme();
 }
 
-console.log(checkboxRef.checked);
-
 checkboxRef.addEventListener('change', event => {
   console.log(event.target.checked);
   if (event.target.checked) {
